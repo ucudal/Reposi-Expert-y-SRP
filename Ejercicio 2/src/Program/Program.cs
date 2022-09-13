@@ -7,6 +7,9 @@ namespace Program
     {
         static void Main(string[] args)
         {
+            Persona NewPerson = new Persona(("Steven Jhonson", "986782342", "5555-555-555"));
+            NewAppointment Appo1 = new NewAppointment((NewPerson, DateTime.5/, "Wall Street", "Armand"));
+            Console.WriteLine(appointmentResult);
             string appointmentResult = AppointmentService.CreateAppointment("Steven Jhonson", "986782342", "5555-555-555", DateTime.Now, "Wall Street", "Armand");
             Console.WriteLine(appointmentResult);
 
